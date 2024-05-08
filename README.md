@@ -6,11 +6,11 @@
 
 ## Base
 
-- Look at the pattern for the working `/artist` server code & Axios request. 
-- Add the server side code to return all the song data when a GET request is made for `/song`. Test this is working with the browser.
-- Set up a client Axios request for `/song`, and display the song data on the DOM.
-- Add an HTML form for adding a new artist. Make a POST request to the server with artist information.
-- Add a server route that appends the artist to the array of artists on the server.
+[X] Look at the pattern for the working `/artist` server code & Axios request. 
+[X] Add the server side code to return all the song data when a GET request is made for `/song`. Test this is working with the browser.
+[X] Set up a client Axios request for `/song`, and display the song data on the DOM.
+[X] Add an HTML form for adding a new artist. Make a POST request to the server with artist information.
+[X] Add a server route that appends the artist to the array of artists on the server.
 
 ## Stretch
 
