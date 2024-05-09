@@ -20,7 +20,7 @@ function fetchArtistList() {
       console.log(response);
       // quotesFromServer will be an Array of quotes
       let quotesFromServer = response.data;
-      let contentDiv = document.querySelector('#artistTableBody');
+      let contentDiv = document.getElementById('artistTableBody');
       for (let artist of quotesFromServer) {
         contentDiv.innerHTML += `
                     <tr>
@@ -59,7 +59,7 @@ function fetchSongs() {
 }
 
 // function to add new artist
-function addArtist(event) {
+function addArtist() {
   const artist = document.getElementById('name').value;
   const born = document.getElementById('born').value;
   const died = document.getElementById('died').value;
